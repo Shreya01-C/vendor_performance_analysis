@@ -1,7 +1,8 @@
-# Venor Parfomance Analysis
+# Vendor Parfomance Analysis
+---
 ## Overview
--
 This project evaluates vendor performance and retail inventory dynamics to drive strategic insights for purchasing, pricing, and inventory optimization. A complete data pipeline was built using SQL for ETL, Python for analysis and hypothesis testing, and Power BI for visualization.
+
 ---
 ## Business Problem
 Effective inventory and sales management are critical in the retail sector. This project aims to:
@@ -17,13 +18,12 @@ Effective inventory and sales management are critical in the retail sector. This
 - Power BI 
 ---
 ## Data Cleaning & Preparation
--
-Removed transactions with:
-Gross Profit ≤ 0
-Profit Margin ≤ 0
-Sales Quantity = 0
-Created summary tables with vendor-level metrics
-Converted data types, handled outliers, merged lookup tables
+- Removed transactions with:
+  - Gross Profit ≤ 0
+  - Profit Margin ≤ 0
+  - Sales Quantity = 0
+- Created summary tables with vendor-level metrics
+- Converted data types, handled outliers, merged lookup tables
 --- 
 ## Exploratory Data Analysis (EDA)
 ### Negative or Zero Values Detected:
@@ -48,6 +48,7 @@ Power BI Dashboard shows:
 - Bulk Purchase Savings
 - Performance Heatmaps
 - Vendor Performance Dashboard
+![Vendor Performance Dashboard](images/dashboard.png)
 ---
 ## Final Recommendations
 - Diversify vendor base to reduce risk
